@@ -27,7 +27,7 @@ public class Question {
             }
         }
 
-        System.out.println(new StringBuilder("<<결과 출력>>"));
+        System.out.println(new StringBuilder("<< 결과 출력 >>"));
 
         for (i = 0; i < 3; i++) {
             StringBuilder sb = new StringBuilder(questions[i]);
