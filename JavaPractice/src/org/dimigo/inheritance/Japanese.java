@@ -1,0 +1,23 @@
+package org.dimigo.inheritance;
+
+/**
+ * Created by sun90 on 2017-05-08.
+ */
+public class Japanese extends Person{
+
+    public Japanese(String name) {
+        super(name);
+    }
+
+    public void sayHello() {
+        System.out.println("오하이요");
+    }
+
+    public void sayBye() {
+        System.out.println("사요나라");
+    }
+
+    public String toString() {
+        return "저는 일본사람 " + getName() + "입니다.";
+    }
+}
