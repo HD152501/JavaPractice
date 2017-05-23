@@ -1,35 +1,26 @@
 /**
- * 
+ *
  */
-package JavaPractice.abstractclass;
+package org.dimigo.abstractclass;
 
 /**
- * <pre>
- * JavaPractice.abstractclass
- * 	 |_ IPhone
- *
- * 1. 개요 : 
- * 2. 작성일 : 2017. 5. 17.
- * <pre>
- *
- * @author : 박명규(로컬계정)
- * @version : 1.0
+ * Created by sun90 on 2017-05-17.
  */
 public class IPhone extends SmartPhone {
 
-	public IPhone() {
-		
-	}
-	
-	public IPhone(String model, String company, int price) {
-		super(model, company, price);
-	}
-	
-	public void pay() {
-		System.out.println("애플 페이로 결제합니다.");
-	}
-	
-	public void useAirDrop() {
-		System.out.println("AirDrop 기능을 사용합니다.");
-	}
+    public IPhone() {
+
+    }
+
+    public IPhone(String model, String company, int price) {
+        super(model, company, price);
+    }
+
+    public void pay() {
+        System.out.println("애플 페이로 결제합니다.");
+    }
+
+    public void useAirDrop() {
+        System.out.println("AirDrop 기능을 사용합니다.");
+    }
 }
