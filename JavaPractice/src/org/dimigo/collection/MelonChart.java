@@ -28,12 +28,17 @@ public class MelonChart {
         System.out.println("-- << 2위 곡 삭제 >> --");
         list.remove(1);
         printList(list);
+
+        System.out.println("-- << 전체 리스트 삭제 >> --");
+        list.clear();
+        printList(list);
     }
 
     public static void printList(List<Music> list) {
+        int i = 1;
         for (Music m : list) {
-            int i = 1;
-            System.out.println((i++) + ". " + m.toString());
+            System.out.println(i + ". " + m.toString());
+            i++;
         }
         System.out.println();
     }
